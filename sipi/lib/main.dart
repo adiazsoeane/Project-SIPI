@@ -22,9 +22,10 @@ class MyApp extends StatelessWidget {
           secondary: Colors.blueAccent, 
         ),
       ),
-      // II--II--II Para cambiar la pantalla comenta uno y descomenta el otro II--II--II
-      //home: ProfilePage(), 
-      home: SearchPage(), 
+  
+        home: ProfilePage(), 
+    //  home: SearchPage(), 
+
     );
   }
 }
